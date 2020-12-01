@@ -243,7 +243,7 @@ int main(int argc, char* argv[]) {
 					exit(1);
 				}
                 int i = 0;
-                while (while < read_length) {
+                while (i < read_length) {
                     if (buffer[i] == '\n')
                     {
                         command[current] = '\0';
